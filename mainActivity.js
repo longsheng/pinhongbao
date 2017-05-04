@@ -83,7 +83,7 @@ define(function(require) {
 		justep.Util.hint("查詢已參與的紅包");
 	};
 	Model.prototype.PayinBtnClick = function(event) {
-
+     //***
 	};
 	Model.prototype.playmusic = function(filename) {
 		if (justep.Browser.isX5App) {
