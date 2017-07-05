@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cFBnYF3" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cFBnYF3" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cFBnYF3" class="cFBnYF3"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pc3An2i2-iosstatusbar cFBnYF3" xid="panel4" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cFBnYF3"> 
+    <div class="x-panel-top cFBnYF3" xid="top4" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cFBnYF3"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cFBnYF3" xid="titleBar3" style="background-color:#f1562d;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;手气榜&quot;}" __cid="cFBnYF3"> 
+        <div class="x-titlebar-left cFBnYF3" xid="left4" __cid="cFBnYF3"/>  
+        <div class="x-titlebar-title cFBnYF3" xid="title3" __cid="cFBnYF3">手气榜</div>  
+        <div class="x-titlebar-right  cFBnYF3" xid="right4" __cid="cFBnYF3">
+          <div class="empty cFBnYF3" __cid="cFBnYF3"/>
+        </div>
+      </div> 
+    </div>  
+    <div class="x-panel-content cFBnYF3" xid="content10" style="background-color:#fef8e0;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cFBnYF3"> 
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cFBnYF3" xid="row7" style="border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#EBCD86;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cFBnYF3"> 
+        <div class="x-col x-col-fixed cFBnYF3" xid="col19" style="text-align:center;width:auto;" __cid="cFBnYF3"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cFBnYF3" xid="button20" style="height:55px;width:55px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;button&quot;}" __cid="cFBnYF3"> 
+            <i xid="i20" __cid="cFBnYF3" class="cFBnYF3"/>  
+            <span xid="span20" __cid="cFBnYF3" class="cFBnYF3"/>
+          </a> 
+        </div>  
+        <div class="x-col cFBnYF3" xid="col20" __cid="cFBnYF3"> 
+          <label xid="label1" __cid="cFBnYF3" class="cFBnYF3">青青旅游</label>  
+          <label xid="label2" __cid="cFBnYF3" class="cFBnYF3">拼得金额</label>  
+          <label xid="label3" style="color:#FF0000;font-weight:bold;font-size:18px;" __cid="cFBnYF3" class="cFBnYF3">149.57</label>  
+          <label xid="label4" __cid="cFBnYF3" class="cFBnYF3">元，</label>  
+          <label xid="label5" __cid="cFBnYF3" class="cFBnYF3">恭喜发财，红包拿来</label>
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cFBnYF3" xid="row8" style="border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#EBCD86;margin-top:6px;margin-bottom:6px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cFBnYF3"> 
+        <div class="x-col x-col-fixed cFBnYF3" xid="col22" style="text-align:center;width:auto;" __cid="cFBnYF3"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cFBnYF3" xid="button21" style="height:55px;width:55px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;button&quot;}" __cid="cFBnYF3"> 
+            <i xid="i21" __cid="cFBnYF3" class="cFBnYF3"/>  
+            <span xid="span21" __cid="cFBnYF3" class="cFBnYF3"/>
+          </a> 
+        </div>  
+        <div class="x-col cFBnYF3" xid="col23" __cid="cFBnYF3"> 
+          <label xid="label7" __cid="cFBnYF3" class="cFBnYF3">山间野人</label>  
+          <label xid="label8" __cid="cFBnYF3" class="cFBnYF3">拼得金额</label>  
+          <label xid="label9" style="color:#FF0000;font-weight:bold;font-size:18px;" __cid="cFBnYF3" class="cFBnYF3">134.05</label>  
+          <label xid="label10" __cid="cFBnYF3" class="cFBnYF3">元，</label>  
+          <label xid="label11" __cid="cFBnYF3" class="cFBnYF3">么么哒~</label>
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cFBnYF3" xid="row10" style="border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#EBCD86;margin-top:6px;margin-bottom:6px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cFBnYF3"> 
+        <div class="x-col x-col-fixed cFBnYF3" xid="col27" style="text-align:center;width:auto;" __cid="cFBnYF3"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cFBnYF3" xid="button23" style="height:55px;width:55px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;button&quot;}" __cid="cFBnYF3"> 
+            <i xid="i23" __cid="cFBnYF3" class="cFBnYF3"/>  
+            <span xid="span23" __cid="cFBnYF3" class="cFBnYF3"/>
+          </a> 
+        </div>  
+        <div class="x-col cFBnYF3" xid="col26" __cid="cFBnYF3"> 
+          <label xid="label19" __cid="cFBnYF3" class="cFBnYF3">奇勋科技</label>  
+          <label xid="label20" __cid="cFBnYF3" class="cFBnYF3">拼得金额</label>  
+          <label xid="label21" style="color:#FF0000;font-weight:bold;font-size:18px;" __cid="cFBnYF3" class="cFBnYF3">19</label>  
+          <label xid="label17" __cid="cFBnYF3" class="cFBnYF3">元，</label>  
+          <label xid="label18" __cid="cFBnYF3" class="cFBnYF3">我乃小诸葛是也</label>
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cFBnYF3" xid="row11" style="border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#EBCD86;margin-top:6px;margin-bottom:6px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cFBnYF3"> 
+        <div class="x-col x-col-fixed cFBnYF3" xid="col29" style="text-align:center;width:auto;" __cid="cFBnYF3"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cFBnYF3" xid="button24" style="height:55px;width:55px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;button&quot;}" __cid="cFBnYF3"> 
+            <i xid="i24" __cid="cFBnYF3" class="cFBnYF3"/>  
+            <span xid="span24" __cid="cFBnYF3" class="cFBnYF3"/>
+          </a> 
+        </div>  
+        <div class="x-col cFBnYF3" xid="col28" __cid="cFBnYF3"> 
+          <label xid="label24" __cid="cFBnYF3" class="cFBnYF3">和平家庭旅馆18627458511</label>  
+          <label xid="label25" __cid="cFBnYF3" class="cFBnYF3">拼得金额</label>  
+          <label xid="label26" style="color:#FF0000;font-weight:bold;font-size:18px;" __cid="cFBnYF3" class="cFBnYF3">10.18</label>  
+          <label xid="label22" __cid="cFBnYF3" class="cFBnYF3">元，</label>  
+          <label xid="label23" __cid="cFBnYF3" class="cFBnYF3">good luck</label>
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cFBnYF3" xid="row12" style="border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#EBCD86;margin-top:6px;margin-bottom:6px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cFBnYF3"> 
+        <div class="x-col x-col-fixed cFBnYF3" xid="col31" style="text-align:center;width:auto;" __cid="cFBnYF3"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cFBnYF3" xid="button25" style="height:55px;width:55px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;button&quot;}" __cid="cFBnYF3"> 
+            <i xid="i25" __cid="cFBnYF3" class="cFBnYF3"/>  
+            <span xid="span25" __cid="cFBnYF3" class="cFBnYF3"/>
+          </a> 
+        </div>  
+        <div class="x-col cFBnYF3" xid="col30" __cid="cFBnYF3"> 
+          <label xid="label29" __cid="cFBnYF3" class="cFBnYF3">钱多多</label>  
+          <label xid="label30" __cid="cFBnYF3" class="cFBnYF3">拼得金额</label>  
+          <label xid="label31" style="color:#FF0000;font-weight:bold;font-size:18px;" __cid="cFBnYF3" class="cFBnYF3">9.57</label>  
+          <label xid="label27" __cid="cFBnYF3" class="cFBnYF3">元，</label>  
+          <label xid="label28" __cid="cFBnYF3" class="cFBnYF3">好运连连拼</label>
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cFBnYF3" xid="row13" style="border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#EBCD86;margin-top:6px;margin-bottom:6px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cFBnYF3"> 
+        <div class="x-col x-col-fixed cFBnYF3" xid="col33" style="text-align:center;width:auto;" __cid="cFBnYF3"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cFBnYF3" xid="button26" style="height:55px;width:55px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;button&quot;}" __cid="cFBnYF3"> 
+            <i xid="i26" __cid="cFBnYF3" class="cFBnYF3"/>  
+            <span xid="span26" __cid="cFBnYF3" class="cFBnYF3"/>
+          </a> 
+        </div>  
+        <div class="x-col cFBnYF3" xid="col32" __cid="cFBnYF3"> 
+          <label xid="label34" __cid="cFBnYF3" class="cFBnYF3">长沙河马</label>  
+          <label xid="label35" __cid="cFBnYF3" class="cFBnYF3">拼得金额</label>  
+          <label xid="label36" style="color:#FF0000;font-weight:bold;font-size:18px;" __cid="cFBnYF3" class="cFBnYF3">149.57</label>  
+          <label xid="label32" __cid="cFBnYF3" class="cFBnYF3">元，</label>  
+          <label xid="label33" __cid="cFBnYF3" class="cFBnYF3">恭喜发财，红包拿来</label>
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cFBnYF3" xid="row14" style="border-bottom-width:2px;border-bottom-style:solid;border-bottom-color:#EBCD86;margin-top:6px;margin-bottom:6px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cFBnYF3"> 
+        <div class="x-col x-col-fixed cFBnYF3" xid="col35" style="text-align:center;width:auto;" __cid="cFBnYF3"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cFBnYF3" xid="button27" style="height:55px;width:55px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;button&quot;}" __cid="cFBnYF3"> 
+            <i xid="i27" __cid="cFBnYF3" class="cFBnYF3"/>  
+            <span xid="span27" __cid="cFBnYF3" class="cFBnYF3"/>
+          </a> 
+        </div>  
+        <div class="x-col cFBnYF3" xid="col34" __cid="cFBnYF3"> 
+          <label xid="label39" __cid="cFBnYF3" class="cFBnYF3">长沙河马</label>  
+          <label xid="label40" __cid="cFBnYF3" class="cFBnYF3">拼得金额</label>  
+          <label xid="label41" style="color:#FF0000;font-weight:bold;font-size:18px;" __cid="cFBnYF3" class="cFBnYF3">149.57</label>  
+          <label xid="label37" __cid="cFBnYF3" class="cFBnYF3">元，</label>  
+          <label xid="label38" __cid="cFBnYF3" class="cFBnYF3">恭喜发财，红包拿来</label>
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cFBnYF3" class="cFBnYF3">.x-panel.pc3An2i2-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pc3An2i2-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pc3An2i2-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pc3An2i2-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc3An2i2-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pc3An2i2-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc3An2i2-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc3An2i2-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc3An2i2-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>
+</div>

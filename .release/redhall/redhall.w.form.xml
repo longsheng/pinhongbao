@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window c77BzIz" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="c77BzIz" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-dialog.x-dialog-normal.c77BzIz .x-dialog-body.c77BzIz{padding: 0px}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad;onParamsReceive:modelParamsReceive" __cid="c77BzIz" class="c77BzIz"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcrU7Rru-iosstatusbar c77BzIz" xid="panel3" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c77BzIz"> 
+    <div class="x-panel-top c77BzIz" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c77BzIz"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar c77BzIz" xid="titleBar2" style="background-color:#f1562d;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;红包大厅&quot;}" __cid="c77BzIz"> 
+        <div class="x-titlebar-left c77BzIz" xid="left2" __cid="c77BzIz"/>  
+        <div class="x-titlebar-title c77BzIz" xid="title2" __cid="c77BzIz">红包大厅</div>  
+        <div class="x-titlebar-right  c77BzIz" xid="right2" __cid="c77BzIz">
+          <div class="empty c77BzIz" __cid="c77BzIz"/>
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link c77BzIz" xid="CreateButton" style="font-size:14px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:CreateButtonClick" data-config="{&quot;label&quot;:&quot;我要发起&quot;}" __cid="c77BzIz"> 
+            <i xid="i2" __cid="c77BzIz" class="c77BzIz"/>  
+            <span xid="span2" __cid="c77BzIz" class="c77BzIz">我要发起</span> 
+          </a>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content c77BzIz" xid="content3" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c77BzIz"> 
+      <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group btn-group-justified c77BzIz" xid="buttonGroup2" style="text-align:center;padding:6px 60px 6px 60px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="c77BzIz"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn x-red btn-sm c77BzIz" xid="button3" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;未参与的&quot;,&quot;target&quot;:&quot;NotJoinContent&quot;}" __cid="c77BzIz"> 
+          <i xid="i3" __cid="c77BzIz" class="c77BzIz"/>  
+          <span xid="span3" __cid="c77BzIz" class="c77BzIz">未参与的</span> 
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn x-red btn-sm c77BzIz" xid="button4" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;已参与的&quot;,&quot;target&quot;:&quot;JoinContent&quot;}" __cid="c77BzIz"> 
+          <i xid="i5" __cid="c77BzIz" class="c77BzIz"/>  
+          <span xid="span4" __cid="c77BzIz" class="c77BzIz">已参与的</span> 
+        </a> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full c77BzIz" xid="contents2" style="margin-top:42px;" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="c77BzIz"> 
+        <div class="x-contents-content active c77BzIz" xid="NotJoinContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" data-events="onActive:NotJoinContentActive" __cid="c77BzIz"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list c77BzIz" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;itemlist_data_notjoin&quot;}" __cid="c77BzIz"> 
+            <ul class="x-list-template hide c77BzIz" xid="listTemplateUl1" bind-foreach="{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" __cid="c77BzIz"> 
+              <li xid="li1" __cid="c77BzIz" class="c77BzIz"> 
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row c77BzIz" xid="row3" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;text-align:center;background-color:#FFFFFF;border-bottom-style:solid;border-bottom-width:2px;border-bottom-color:#EBEBEB;height:74px;" bind-click="li1Click" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c77BzIz"> 
+                  <div class="x-col x-col-fixed x-col-center c77BzIz" xid="col7" style="width:auto;" __cid="c77BzIz"> 
+                    <img src="$model/UI2/ls_pinhongbao/images/pin.png" alt="" xid="image2" __cid="c77BzIz" class="c77BzIz"/> 
+                  </div>  
+                  <div class="x-col c77BzIz" xid="col8" style="padding:8px 0px 0px 0px;margin:0px 0px 0px 0px;" __cid="c77BzIz"> 
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row c77BzIz" xid="row4" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c77BzIz"> 
+                      <div class="x-col c77BzIz" xid="col12" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;text-align:left;" __cid="c77BzIz"> 
+                        <label xid="label43" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;font-size:12px;" bind-text="val(&quot;name&quot;)" __cid="c77BzIz" class="c77BzIz">长沙河马的红包</label> 
+                      </div>  
+                      <div class="x-col c77BzIz" xid="col1" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;text-align:right;" __cid="c77BzIz"> 
+                        <label xid="label49" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;font-size:12px;" __cid="c77BzIz" class="c77BzIz">总额</label>  
+                        <label xid="label50" style="color:#FF0000;font-size:16px;font-weight:bold;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" bind-text="val(&quot;full_count&quot;)*val(&quot;chapter_per_money&quot;)" __cid="c77BzIz" class="c77BzIz"/>  
+                        <label xid="label1" style="color:#FF0000;font-size:16px;font-weight:bold;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" __cid="c77BzIz" class="c77BzIz">元</label> 
+                      </div> 
+                    </div>  
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row c77BzIz" xid="row5" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;height:9px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c77BzIz"> 
+                      <div class="x-col c77BzIz" xid="col15" style="padding:0px 30px 0px 0px;margin:0px 0px 0px 0px;height:9px;" __cid="c77BzIz"> 
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row c77BzIz" xid="row9" style="background-color:#fed664;border-top-style:solid;border-top-width:1px;border-bottom-style:solid;border-bottom-width:1px;border-top-color:#EED794;border-left-color:#F8D675;border-bottom-color:#F8D675;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;height:4px;width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c77BzIz"/> 
+                      </div> 
+                    </div>  
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row c77BzIz" xid="row6" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c77BzIz"> 
+                      <div class="x-col c77BzIz" xid="col17" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;text-align:left;" __cid="c77BzIz"> 
+                        <label xid="label53" style="color:#FF0000;font-size:10px;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;" bind-text="val(&quot;chapter_per_money&quot;)" __cid="c77BzIz" class="c77BzIz">1</label>  
+                        <label xid="label54" style="color:#FF0000;font-size:10px;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;" __cid="c77BzIz" class="c77BzIz">元可已参与</label> 
+                      </div> 
+                    </div> 
+                  </div>  
+                  <div class="x-col x-col-fixed x-col-center c77BzIz" xid="col9" style="width:auto;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;text-align:center;" __cid="c77BzIz"> 
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row c77BzIz" xid="row18" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c77BzIz"> 
+                      <div class="x-col c77BzIz" xid="col39" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" __cid="c77BzIz"> 
+                        <label xid="label6" style="font-size:10px;" bind-text="val(&quot;mobile&quot;)" __cid="c77BzIz" class="c77BzIz">长沙河马</label> 
+                      </div> 
+                    </div>  
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row c77BzIz" xid="row20" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c77BzIz"> 
+                      <div class="x-col c77BzIz" xid="col46" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" __cid="c77BzIz"> 
+                        <label xid="label12" style="background-color:#FF0000;color:#FFFFFF;font-size:10px;" __cid="c77BzIz" class="c77BzIz">参与</label>  
+                        <label xid="label13" style="font-size:10px;" bind-text="val(&quot;now_count&quot;)" __cid="c77BzIz" class="c77BzIz">3</label>  
+                        <label xid="label14" style="font-size:10px;" __cid="c77BzIz" class="c77BzIz">/</label>  
+                        <label xid="label15" style="font-size:10px;" bind-text="val(&quot;full_count&quot;)" __cid="c77BzIz" class="c77BzIz">3</label>  
+                        <label xid="label16" style="font-size:10px;" __cid="c77BzIz" class="c77BzIz">人</label> 
+                      </div> 
+                    </div> 
+                  </div> 
+                </div> 
+              </li> 
+            </ul> 
+          </div> 
+        </div>  
+        <div class="x-contents-content c77BzIz" xid="JoinContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" data-events="onActive:JoinContentActive" __cid="c77BzIz"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list c77BzIz" xid="list2" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;itemlist_data_joined&quot;}" __cid="c77BzIz"> 
+            <ul class="x-list-template hide c77BzIz" xid="listTemplateUl2" bind-foreach="{data:$model.foreach_list2($element),afterRender:$model.foreach_afterRender_list2.bind($model,$element)}" __cid="c77BzIz"> 
+              <li xid="li2" __cid="c77BzIz" class="c77BzIz"> 
+                <div component="$model/UI2/system/components/justep/row/row" class="x-row c77BzIz" xid="row8" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;text-align:center;background-color:#FFFFFF;border-bottom-style:solid;border-bottom-width:2px;border-bottom-color:#EBEBEB;height:74px;" bind-click="li1Click" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c77BzIz"> 
+                  <div class="x-col x-col-fixed x-col-center c77BzIz" xid="col11" style="width:auto;" __cid="c77BzIz"> 
+                    <img src="$model/UI2/ls_pinhongbao/images/pin.png" alt="" xid="image1" __cid="c77BzIz" class="c77BzIz"/>
+                  </div>  
+                  <div class="x-col c77BzIz" xid="col6" style="padding:8px 0px 0px 0px;margin:0px 0px 0px 0px;" __cid="c77BzIz"> 
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row c77BzIz" xid="row11" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c77BzIz"> 
+                      <div class="x-col c77BzIz" xid="col5" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;text-align:left;" __cid="c77BzIz"> 
+                        <label xid="label3" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;font-size:12px;" bind-text="val(&quot;name&quot;)" __cid="c77BzIz" class="c77BzIz">长沙河马的红包</label>
+                      </div>  
+                      <div class="x-col c77BzIz" xid="col13" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;text-align:right;" __cid="c77BzIz"> 
+                        <label xid="label2" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;font-size:12px;" __cid="c77BzIz" class="c77BzIz">总额</label>  
+                        <label xid="label19" style="color:#FF0000;font-size:16px;font-weight:bold;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" bind-text="val(&quot;full_count&quot;)*val(&quot;chapter_per_money&quot;)" __cid="c77BzIz" class="c77BzIz"/>  
+                        <label xid="label11" style="color:#FF0000;font-size:16px;font-weight:bold;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" __cid="c77BzIz" class="c77BzIz">元</label>
+                      </div> 
+                    </div>  
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row c77BzIz" xid="row10" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;height:9px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c77BzIz"> 
+                      <div class="x-col c77BzIz" xid="col4" style="padding:0px 30px 0px 0px;margin:0px 0px 0px 0px;height:9px;" __cid="c77BzIz"> 
+                        <div component="$model/UI2/system/components/justep/row/row" class="x-row c77BzIz" xid="row7" style="background-color:#fed664;border-top-style:solid;border-top-width:1px;border-bottom-style:solid;border-bottom-width:1px;border-top-color:#EED794;border-left-color:#F8D675;border-bottom-color:#F8D675;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;height:4px;width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c77BzIz"/>
+                      </div> 
+                    </div>  
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row c77BzIz" xid="row2" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c77BzIz"> 
+                      <div class="x-col c77BzIz" xid="col2" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;text-align:left;" __cid="c77BzIz"> 
+                        <label xid="label9" style="color:#FF0000;font-size:10px;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;" bind-text="val(&quot;chapter_per_money&quot;)" __cid="c77BzIz" class="c77BzIz">1</label>  
+                        <label xid="label8" style="color:#FF0000;font-size:10px;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;" __cid="c77BzIz" class="c77BzIz">元可已参与</label>
+                      </div> 
+                    </div> 
+                  </div>  
+                  <div class="x-col x-col-fixed x-col-center c77BzIz" xid="col10" style="width:auto;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;text-align:center;" __cid="c77BzIz"> 
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row c77BzIz" xid="row12" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c77BzIz"> 
+                      <div class="x-col c77BzIz" xid="col3" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" __cid="c77BzIz"> 
+                        <label xid="label4" style="font-size:10px;" bind-text="val(&quot;mobile&quot;)" __cid="c77BzIz" class="c77BzIz">长沙河马</label>
+                      </div> 
+                    </div>  
+                    <div component="$model/UI2/system/components/justep/row/row" class="x-row c77BzIz" xid="row1" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c77BzIz"> 
+                      <div class="x-col c77BzIz" xid="col14" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" __cid="c77BzIz"> 
+                        <label xid="label18" style="background-color:#FF0000;color:#FFFFFF;font-size:10px;" __cid="c77BzIz" class="c77BzIz">参与</label>  
+                        <label xid="label17" style="font-size:10px;" bind-text="val(&quot;now_count&quot;)" __cid="c77BzIz" class="c77BzIz">3</label>  
+                        <label xid="label10" style="font-size:10px;" __cid="c77BzIz" class="c77BzIz">/</label>  
+                        <label xid="label7" style="font-size:10px;" bind-text="val(&quot;full_count&quot;)" __cid="c77BzIz" class="c77BzIz">3</label>  
+                        <label xid="label5" style="font-size:10px;" __cid="c77BzIz" class="c77BzIz">人</label>
+                      </div> 
+                    </div> 
+                  </div> 
+                </div> 
+              </li> 
+            </ul> 
+          </div>
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="c77BzIz" class="c77BzIz">.x-panel.pcrU7Rru-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcrU7Rru-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcrU7Rru-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcrU7Rru-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcrU7Rru-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcrU7Rru-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcrU7Rru-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcrU7Rru-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcrU7Rru-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-events="onClose:windowDialog1Close" data-config="{&quot;forceRefreshOnOpen&quot;:true,&quot;routable&quot;:true,&quot;showTitle&quot;:false,&quot;src&quot;:&quot;$model/UI2/ls_pinhongbao/detail_join.w&quot;,&quot;status&quot;:&quot;normal&quot;,&quot;width&quot;:&quot;100%&quot;}" __cid="c77BzIz" class="c77BzIz">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay c77BzIz" __cid="c77BzIz"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog c77BzIz" style="display:none;" showTitle="false" __cid="c77BzIz">
+      <xhtml:div class="x-dialog-title c77BzIz" __cid="c77BzIz">
+        <xhtml:button class="close c77BzIz" __cid="c77BzIz">
+          <xhtml:span __cid="c77BzIz" class="c77BzIz">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text c77BzIz" __cid="c77BzIz"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body c77BzIz" __cid="c77BzIz"/>
+    </xhtml:div>
+  </span> 
+</div>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cjaENJv" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cjaENJv" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cjaENJv" class="cjaENJv"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcrEn2Mf-iosstatusbar cjaENJv" xid="panel5" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cjaENJv"> 
+    <div class="x-panel-content cjaENJv" xid="content11" style="background-color:#fef8e0;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cjaENJv"> 
+      <img src="@justepContextPath@/v_f45679dc68764ee993cbd191424c5861l_zh_CNs_d_m/ls_pinhongbao/images/rule.png" alt="" xid="image1" style="width:100%;" __cid="cjaENJv" class="cjaENJv"/> 
+    </div>  
+    <style __cid="cjaENJv" class="cjaENJv">.x-panel.pcrEn2Mf-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcrEn2Mf-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcrEn2Mf-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcrEn2Mf-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcrEn2Mf-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcrEn2Mf-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcrEn2Mf-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcrEn2Mf-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcrEn2Mf-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+  </div> 
+</div>

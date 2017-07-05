@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<div xid="window" class="window cZ3Mrai" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cZ3Mrai" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/select/radioGroup,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/button/radio,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cZ3Mrai" class="cZ3Mrai"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcvM77Zv-iosstatusbar cZ3Mrai" xid="panel7" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cZ3Mrai"> 
+    <div class="x-panel-top cZ3Mrai" xid="top3" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cZ3Mrai"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cZ3Mrai" xid="titleBar6" style="background-color:#f1562d;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&#34;title&#34;:&#34;发起任务&#34;}" __cid="cZ3Mrai"> 
+        <div class="x-titlebar-left cZ3Mrai" xid="left3" __cid="cZ3Mrai"></div>  
+        <div class="x-titlebar-title cZ3Mrai" xid="title6" __cid="cZ3Mrai">发起任务</div>  
+        <div class="x-titlebar-right  cZ3Mrai" xid="right3" __cid="cZ3Mrai">
+          <div class="empty cZ3Mrai" __cid="cZ3Mrai"></div>
+        </div>
+      </div> 
+    </div>  
+    <div class="x-panel-content cZ3Mrai" xid="content7" style="background-color:#fef8e0;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cZ3Mrai"> 
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row cZ3Mrai" xid="row44" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cZ3Mrai"> 
+        <div class="x-col cZ3Mrai" xid="col70" __cid="cZ3Mrai"> 
+          <div component="$model/UI2/system/components/justep/row/row" class="x-row cZ3Mrai" xid="row45" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cZ3Mrai"> 
+            <div class="x-col x-col-fixed x-col-center cZ3Mrai" xid="col72" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;width:110px;" __cid="cZ3Mrai"> 
+              <label xid="label103" __cid="cZ3Mrai" class="cZ3Mrai">主题（1-10字）</label>
+            </div>  
+            <div class="x-col cZ3Mrai" xid="col74" __cid="cZ3Mrai"> 
+              <input component="$model/UI2/system/components/justep/input/input" class="form-control cZ3Mrai" xid="input1" style="text-align:right;" data-bind="component:{ref:$model.val_newgame.ref(&#34;name&#34;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&#34;placeHolder&#34;:&#34;红包名称（可不填）&#34;}" __cid="cZ3Mrai">
+            </div> 
+          </div>  
+          <div component="$model/UI2/system/components/justep/row/row" class="x-row cZ3Mrai" xid="row46" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cZ3Mrai"> 
+            <div class="x-col x-col-fixed x-col-center cZ3Mrai" xid="col75" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;width:60px;" __cid="cZ3Mrai"> 
+              <label xid="label104" __cid="cZ3Mrai" class="cZ3Mrai">人数</label>
+            </div>  
+            <div class="x-col cZ3Mrai" xid="col77" style="width:auto;" __cid="cZ3Mrai"> 
+              <span component="$model/UI2/system/components/justep/select/radioGroup" class="x-radio-group cZ3Mrai" xid="radioGroup2" data-bind="component:{ref:$model.val_newgame.ref(&#34;pernumber&#34;),name:'$model/UI2/system/components/justep/select/radioGroup'},foreach:{data:data_radio_pernumber.datas,afterRender:$model.comp($element)['_doUpdate'].bind($model.comp($element))}" __cid="cZ3Mrai">
+                <span component="$model/UI2/system/components/justep/button/radio" class="x-radio cZ3Mrai" data-config="{&#34;checked&#34;:false,&#34;disabled&#34;:false}" data-bind="component:{name:'$model/UI2/system/components/justep/button/radio',label:ref(&#34;per_number&#34;),value:ref(&#34;id&#34;)}" __cid="cZ3Mrai">
+                  <input type="radio" __cid="cZ3Mrai" class="cZ3Mrai">
+                  <label __cid="cZ3Mrai" class="cZ3Mrai"></label>
+                </span>
+              </span>
+            </div> 
+          </div>  
+          <div component="$model/UI2/system/components/justep/row/row" class="x-row cZ3Mrai" xid="row48" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cZ3Mrai"> 
+            <div class="x-col x-col-fixed x-col-center cZ3Mrai" xid="col85" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;width:60px;" __cid="cZ3Mrai"> 
+              <label xid="label107" __cid="cZ3Mrai" class="cZ3Mrai">每人支付</label>
+            </div>  
+            <div class="x-col  cZ3Mrai" xid="col83" style="width:auto;" __cid="cZ3Mrai"> 
+              <span component="$model/UI2/system/components/justep/select/radioGroup" class="x-radio-group cZ3Mrai" xid="radioGroup1" data-bind="component:{ref:$model.val_newgame.ref(&#34;permoney&#34;),name:'$model/UI2/system/components/justep/select/radioGroup'},foreach:{data:data_radio_permoney.datas,afterRender:$model.comp($element)['_doUpdate'].bind($model.comp($element))}" __cid="cZ3Mrai">
+                <span component="$model/UI2/system/components/justep/button/radio" class="x-radio cZ3Mrai" data-config="{&#34;checked&#34;:false,&#34;disabled&#34;:false}" data-bind="component:{name:'$model/UI2/system/components/justep/button/radio',label:ref(&#34;permoney&#34;),value:ref(&#34;id&#34;)}" __cid="cZ3Mrai">
+                  <input type="radio" __cid="cZ3Mrai" class="cZ3Mrai">
+                  <label __cid="cZ3Mrai" class="cZ3Mrai"></label>
+                </span>
+              </span>
+            </div> 
+          </div>  
+          <div component="$model/UI2/system/components/justep/row/row" class="x-row cZ3Mrai" xid="row50" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cZ3Mrai"> 
+            <div class="x-col cZ3Mrai" xid="col86" __cid="cZ3Mrai"></div>  
+            <div class="x-col cZ3Mrai" xid="col87" __cid="cZ3Mrai"></div>  
+            <div class="x-col cZ3Mrai" xid="col88" __cid="cZ3Mrai"></div>
+          </div>  
+          <div component="$model/UI2/system/components/justep/row/row" class="x-row cZ3Mrai" xid="row51" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cZ3Mrai"> 
+            <div class="x-col cZ3Mrai" xid="col91" __cid="cZ3Mrai"> 
+              <a component="$model/UI2/system/components/justep/button/button" class="btn x-red btn-block cZ3Mrai" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button_createchaperClick" data-config="{&#34;label&#34;:&#34;发起任务&#34;}" __cid="cZ3Mrai"> 
+                <i xid="i17" __cid="cZ3Mrai" class="cZ3Mrai"></i>  
+                <span xid="span17" __cid="cZ3Mrai" class="cZ3Mrai">发起任务</span>
+              </a> 
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cZ3Mrai" class="cZ3Mrai">.x-panel.pcvM77Zv-iosstatusbar >.x-panel-top {height: 48px;}.x-panel.pcvM77Zv-iosstatusbar >.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcvM77Zv-iosstatusbar >.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcvM77Zv-iosstatusbar >.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcvM77Zv-iosstatusbar >.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcvM77Zv-iosstatusbar >.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcvM77Zv-iosstatusbar >.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcvM77Zv-iosstatusbar >.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcvM77Zv-iosstatusbar >.x-panel-content {top: 48px;}</style>
+  </div>
+</div>

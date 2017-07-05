@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window ciAveim" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="ciAveim" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad;onParamsReceive:modelParamsReceive" __cid="ciAveim" class="ciAveim"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcMRZv2a-iosstatusbar ciAveim" xid="panel6" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="ciAveim"> 
+    <div class="x-panel-top ciAveim" xid="top6" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ciAveim"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar ciAveim" xid="titleBar5" style="background-color:#f1562d;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;个人中心&quot;}" __cid="ciAveim"> 
+        <div class="x-titlebar-left ciAveim" xid="left6" __cid="ciAveim"/>  
+        <div class="x-titlebar-title ciAveim" xid="title5" __cid="ciAveim">个人中心</div>  
+        <div class="x-titlebar-right  ciAveim" xid="right6" __cid="ciAveim"> 
+          <div class="empty ciAveim" __cid="ciAveim"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content ciAveim" xid="content12" style="background-color:#fef8e0;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ciAveim"> 
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row ciAveim" xid="row19" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;background-color:#f1562d;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'},event:{click:$model._callModelFn.bind($model, 'row7Click')}" __cid="ciAveim"> 
+        <div class="x-col ciAveim" xid="col25" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" __cid="ciAveim"> 
+          <div component="$model/UI2/system/components/justep/row/row" class="x-row ciAveim" xid="row16" style="height:137px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="ciAveim"> 
+            <div class="x-col ciAveim" xid="col38" __cid="ciAveim"/>  
+            <div class="x-col x-col-fixed ciAveim" xid="col44" style="text-align:center;width:auto;" __cid="ciAveim"> 
+              <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon ciAveim" xid="button1" style="margin-top:-30px;height:112px;color:#FAFAFA;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;dataControl dataControl-usero&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="ciAveim"> 
+                <i xid="i4" class="dataControl dataControl-usero ciAveim" style="font-size:100px;" __cid="ciAveim"/>  
+                <span xid="span5" __cid="ciAveim" class="ciAveim"/> 
+              </a> 
+            </div>  
+            <div class="x-col ciAveim" xid="col43" __cid="ciAveim"/> 
+          </div>  
+          <div component="$model/UI2/system/components/justep/row/row" class="x-row ciAveim" xid="row15" style="height:45px;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="ciAveim"> 
+            <div class="x-col ciAveim" xid="col42" __cid="ciAveim"/>  
+            <div class="x-col x-col-fixed ciAveim" xid="col37" style="text-align:center;width:auto;" __cid="ciAveim"> 
+              <label xid="label42" style="color:#FFFFFF;font-size:16px;" __cid="ciAveim" class="ciAveim" data-bind="text:$model.data_userinfo.val(&quot;mobile&quot;)">我的昵称</label> 
+            </div>  
+            <div class="x-col ciAveim" xid="col36" __cid="ciAveim"/> 
+          </div> 
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row ciAveim" xid="row22" style="background-color:#FFFFFF;border-bottom-color:#DEDEDE;border-style:solid solid solid solid;border-width:1px 0px 1px 0px;border-top-color:#DEDEDE;padding:0px 0px 0px 0px;margin:10px 0px 10px 0px;background-color:#FFFFFF;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="ciAveim"> 
+        <div class="x-col x-col-fixed x-col-center ciAveim" xid="col54" style="width:auto;" __cid="ciAveim"> 
+          <label xid="label48" style="padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" __cid="ciAveim" class="ciAveim">可用余额</label> 
+        </div>  
+        <div class="x-col x-col-center ciAveim" xid="col55" __cid="ciAveim"> 
+          <label xid="label47" style="color:#FF0000;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" __cid="ciAveim" class="ciAveim">￥</label>  
+          <label xid="label51" style="color:#FF0000;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;" __cid="ciAveim" class="ciAveim" data-bind="text:$model.data_userinfo.val(&quot;money&quot;)">0.00</label> 
+        </div>  
+        <div class="x-col x-col-center ciAveim" xid="col56" style="text-align:right;width:auto;" __cid="ciAveim"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn x-red btn-sm ciAveim" xid="PayinBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:PayinBtnClick" data-config="{&quot;label&quot;:&quot;充值&quot;}" __cid="ciAveim"> 
+            <i xid="i32" __cid="ciAveim" class="ciAveim"/>  
+            <span xid="span33" __cid="ciAveim" class="ciAveim">充值</span> 
+          </a> 
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row ciAveim" xid="row17" style="border-bottom-color:#DEDEDE;border-style:solid solid solid solid;border-width:1px 0px 1px 0px;border-top-color:#DEDEDE;padding:0px 0px 0px 0px;margin:-1px 0px 0px 0px;background-color:#FFFFFF;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="ciAveim"> 
+        <div class="x-col x-col-fixed ciAveim" xid="col45" style="width:auto;" __cid="ciAveim"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon ciAveim" xid="button28" style="color:#FF0000;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;e-commerce e-commerce-shizhong&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="ciAveim"> 
+            <i xid="i29" class="e-commerce e-commerce-shizhong ciAveim" __cid="ciAveim"/>  
+            <span xid="span30" __cid="ciAveim" class="ciAveim"/> 
+          </a> 
+        </div>  
+        <div class="x-col x-col-center ciAveim" xid="col51" __cid="ciAveim"> 
+          <label xid="label44" style="color:#000000;" __cid="ciAveim" class="ciAveim">我的红包记录</label> 
+        </div>  
+        <div class="x-col x-col-fixed ciAveim" xid="col50" style="text-align:right;width:auto;" __cid="ciAveim"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon ciAveim" xid="button10" style="color:#808080;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="ciAveim"> 
+            <i xid="i28" class="icon-chevron-right ciAveim" __cid="ciAveim"/>  
+            <span xid="span29" __cid="ciAveim" class="ciAveim"/> 
+          </a> 
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row ciAveim" xid="row21" style="border-bottom-color:#DEDEDE;border-style:solid solid solid solid;border-width:1px 0px 1px 0px;border-top-color:#DEDEDE;padding:0px 0px 0px 0px;margin:-1px 0px 0px 0px;background-color:#FFFFFF;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="ciAveim"> 
+        <div class="x-col x-col-fixed ciAveim" xid="col49" style="width:auto;" __cid="ciAveim"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon ciAveim" xid="button29" style="color:#FF0000;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;e-commerce e-commerce-renminbi&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="ciAveim"> 
+            <i xid="i31" class="e-commerce e-commerce-renminbi ciAveim" __cid="ciAveim"/>  
+            <span xid="span32" __cid="ciAveim" class="ciAveim"/> 
+          </a> 
+        </div>  
+        <div class="x-col x-col-center ciAveim" xid="col52" __cid="ciAveim"> 
+          <label xid="label45" style="color:#000000;" __cid="ciAveim" class="ciAveim">余额提现</label>  
+          <label xid="label46" style="color:#FF0000;font-size:10px;" __cid="ciAveim" class="ciAveim">提现后直接到您的微信钱包</label> 
+        </div>  
+        <div class="x-col x-col-fixed ciAveim" xid="col53" style="text-align:right;width:auto;" __cid="ciAveim"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon ciAveim" xid="button30" style="color:#808080;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-right&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="ciAveim"> 
+            <i xid="i30" class="icon-chevron-right ciAveim" __cid="ciAveim"/>  
+            <span xid="span31" __cid="ciAveim" class="ciAveim"/> 
+          </a> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="ciAveim" class="ciAveim">.x-panel.pcMRZv2a-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcMRZv2a-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcMRZv2a-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcMRZv2a-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcMRZv2a-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcMRZv2a-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcMRZv2a-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcMRZv2a-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcMRZv2a-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>
